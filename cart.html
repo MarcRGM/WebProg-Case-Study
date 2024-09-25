@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Toronto Cupcakes</title>
+        <!--Allows the font Irish Grover to be usable-->
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'> 
+        <!--Allows the shopping bag icon to be usable-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+
+            body {
+                margin: 0;
+                padding: 0;
+                background-color:#F9F5F6;
+            }
+
+            .NavBar{
+                height: 100px ;
+                width: 100ww;
+                padding: 10px;
+                position: sticky 0px;
+                background-color: #F8E8EE ;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-family: 'Lato';
+            }
+
+            .left {
+                display: flex;
+                align-items: center;
+            }   
+
+            .left span{
+                font-size: 30px;
+                font-weight: bold;
+                color: #E6A4B4;
+            }
+
+            .logo{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: #F9F5F6;
+                margin-right: 20px;
+                object-fit: cover;
+            }
+            
+            .center{
+                align-self: flex-end;
+                display: flex;
+                font-size: 20px;
+                justify-content: space-evenly;
+                width: 600px;
+                padding: 10px 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                background-color: #F9F5F6;
+                margin-bottom: -10px;
+            }
+
+            .center a {
+                text-decoration: none;
+                color: #E6A4B4;
+                padding: 5px;
+                font-size: 20px;
+                margin-inline: 35px;
+            }
+
+            .center a:hover, .right a:hover {
+                color: #E6A4B4;
+                background-color: #F8E8EE;
+                border-radius: 10px;
+                border-bottom: 3px solid #E6A4B4;
+            }
+
+            .right .cart {
+                color: #E6A4B4;
+                background-color: #F8E8EE;
+                padding: 5px;
+                border-radius: 10px;
+                border-bottom: 3px solid #E6A4B4;
+            }
+
+            .right{
+                align-self: flex-start;
+                display: flex;
+                align-items: center;
+                background-color: #F9F5F6;
+                border-radius: 10px;
+                padding: 10px 10px;
+            }
+
+            .right a {
+                vertical-align: top;
+                text-decoration: none;
+                color: #E6A4B4;
+                font-size: 20px;
+                font-stretch: ultra-expanded;
+                margin-inline: 10px;
+                padding: 5px;
+            }
+
+            .cart{
+                margin-left: 25px;
+                width: 50px;
+                height: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="NavBar">
+            <div class="left">
+                <img src="https://www.torontocupcake.com/images/transparent-TO-logo.png" class="logo">
+                <span>Toronto Cupcakes</span>
+            </div>
+            <div class="center">
+                <div></div>
+                <nav>
+                    <a class="home" href="home.html" target="_self">Home </a>
+                    <a class="cupcake" href="cupcake.html" target="_self">Cupcake </a>
+                    <a class="about" href="about.html" target="_self">About </a>
+                    <a class="delivery"href="delivery.html" target="_self">Delivery </a>
+                </nav>
+            </div>
+            <div class = "right">
+                <nav>
+                    <a class="help" href="help.html">Help</a>
+                    <a class="contact" href="contact.html">Contact</a>
+                    <a class="cart" href="cart.html">
+                        <span class="material-symbols-outlined">
+                            shopping_bag
+                        </span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>
