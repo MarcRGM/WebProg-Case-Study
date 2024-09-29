@@ -6,8 +6,7 @@ body {
 }
 
 .NavBar{
-    height: 100px ;
-    width: 100vw;
+    height: 100px;
     padding: 10px;
     position: sticky 0px;
     background-color: #F8E8EE;
@@ -129,9 +128,30 @@ body {
     height: 50px;
 }
 
-.welcome {
-    width: 100vw;
+.first-row {
     height: 300px;
-    padding: 20px;
-    color: #F9F5F6;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+ 
 }
+
+.welcome {
+    width: 800px;
+    height: 180px;
+    color: #E6A4B4;
+    text-align: justify;
+    font-size: large;
+}
+
+.boxes {
+    width: 300px;
+    height: 300px;
+    background-color: #F3D7CA;
+}
+
+
+
+
