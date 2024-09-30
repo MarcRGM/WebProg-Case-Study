@@ -70,13 +70,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     background: repeating-linear-gradient(
-        to right,  /* Direction of the stripes (horizontal) */
-        #F5EEE6 -1%,   /* First stripe color */
-        #F5EEE6 0%, /* End of first stripe */
-        #F3D7CA 0%, /* Start of second stripe */
-        #F3D7CA 1%    /* End of second stripe */
+        to right,
+        #F5EEE6 -1%,  
+        #F5EEE6 0%, 
+        #F3D7CA 0%, 
+        #F3D7CA 1%    
     );
 }
 
@@ -96,8 +95,6 @@ body {
     border-radius: 50%;
     margin-right: 20px;
     object-fit: cover;
-    border-left: 8px solid #F2BED1;
-    border-bottom: 4px solid #F2BED1;
     transition-property: transform;
     transition-duration: 0.5s;       
     transition-timing-function: ease;
@@ -110,10 +107,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-    border-left: 8px solid #F2BED1;
-    border-bottom: 4px solid #F2BED1;
-    border-top: 0px solid transparent;
-    border-right: 0px solid transparent;
+    border: 0px solid transparent;
 }
 
 .title:active + .logo {
@@ -121,11 +115,11 @@ body {
 }
 
 .title:active {
-    border: 0px solid transparent;
+    background-color: #E6A4B4;
 }
 
 .title:hover {
-    background-color: #F8F1F1;
+    transform: translateY(-5px);
 }
 
 .center{
@@ -147,25 +141,25 @@ body {
     margin-inline: 35px;
 }
 
-.center a:hover, .right a:hover {
+.center a:hover, .right a:hover{
     background-color: #F8E8EE;
     border-radius: 10px;
-    border-bottom: 3px solid #E6A4B4;
 }
 
 .current {
     background-color: #F8E8EE;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
-    border-bottom: 3px solid #E6A4B4;
 }
 
 .right{
     align-self: flex-start;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
     padding: 12px 16px;
+    margin-top: -10px;
+    margin-right: -14px;
 }
 
 .right a {
@@ -198,9 +192,15 @@ body {
 .welcome {
     width: 800px;
     height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: justify;
     font-size: 20px;
     font-weight: bolder;
+    padding: 20px;
+    border-top: 15px solid #F8E8EE;
+    border-bottom: 15px solid #F8E8EE;
 }
 
 .logo-2 {
@@ -208,11 +208,13 @@ body {
     height: 300px;
     display: flex;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 .logo-2 img {
-    transform: scale(0.7);
+    transform: scale(0.9);
     border-radius: 50%;
+    border: 20px solid #F8E8EE;
 }
 
 .second-section {
@@ -247,12 +249,19 @@ body {
 
 .third-section {
     width: 100vw;
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
+    background: repeating-linear-gradient(
+        to right,
+        #F5EEE6 -1%,  
+        #F5EEE6 0%, 
+        #F3D7CA 0%, 
+        #F3D7CA 1%    
+    );
 }
 
 .specialty {
@@ -284,13 +293,22 @@ body {
 }
 
 .specialty-cupcakes img {
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .specialty-info {
     font-size: 20px;
     width: 500px;
-    height: 200px;
+    height: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 15px solid #F2BED1;
+    border-right: 15px solid #F2BED1;
+    border-top: 15px solid #F9F5F6;
+    border-bottom: 15px solid #F9F5F6;
+    border-radius: 10px;
 }
 
 .specialty-info p {
@@ -320,7 +338,7 @@ body {
 
 .fifth-section {
     width: 100vw;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -333,7 +351,6 @@ body {
     margin-left: 5%;
     display: flex;
     flex-direction: column;
-    margin-top: 8%;
 }
 
 .customer {
