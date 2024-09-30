@@ -1,4 +1,8 @@
 /* Colors */
+.cream-color {
+    color: #F5EEE6;
+}
+
 .peachy-pink-color {
     color: #F3D7CA;
 }
@@ -24,6 +28,10 @@
 }
 
 /* Backgrounds */
+.cream-back {
+    background-color: #F5EEE6;
+}
+
 .peachy-pink-back {
     background-color: #F3D7CA;
 }
@@ -156,10 +164,8 @@ body {
     align-self: flex-start;
     display: flex;
     align-items: center;
-    border-bottom-left-radius: 10px;
+    border-radius: 10px;
     padding: 12px 16px;
-    margin-top: -10px;
-    margin-right: -14px;
 }
 
 .right a {
@@ -196,11 +202,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 22px;
     padding: 20px;
-    border-top: 15px solid #F8E8EE;
-    border-bottom: 15px solid #F8E8EE;
 }
 
 .logo-2 {
@@ -212,9 +215,8 @@ body {
 }
 
 .logo-2 img {
-    transform: scale(0.9);
+    transform: scale(1);
     border-radius: 50%;
-    border: 20px solid #F8E8EE;
 }
 
 .second-section {
