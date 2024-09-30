@@ -1,15 +1,65 @@
+/* Colors */
+.peachy-pink-color {
+    color: #F3D7CA;
+}
+
+.pinkish-white-color {
+    color: #F9F5F6;
+}
+
+.lightest-pink-color {
+    color: #F8E8EE;
+}
+
+.light-pink-color {
+    color: #FDCEDF;
+}
+
+.medium-pink-color {
+    color: #F2BED1;
+}
+
+.dark-pink-color {
+    color: #E6A4B4;
+}
+
+/* Backgrounds */
+.peachy-pink-back {
+    background-color: #F3D7CA;
+}
+
+.pinkish-white-back {
+    background-color: #F9F5F6;
+}
+
+.lightest-pink-back {
+    background-color: #F8E8EE;
+}
+
+.light-pink-back {
+    background-color: #FDCEDF;
+}
+
+.medium-pink-back {
+    background-color: #F2BED1;
+}
+
+.dark-pink-back {
+    background-color: #E6A4B4;
+}
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color:#F9F5F6;
     font-family: 'Lato';
     width: 100vw;
 }
 
+
 .NavBar{
     height: 100px;
     padding: 10px;
-    background-color: #F8E8EE;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,10 +80,8 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #F8E8EE;
     margin-right: 20px;
     object-fit: cover;
-    background-color: #F3D7CA;
     border-left: 8px solid #F2BED1;
     border-bottom: 4px solid #F2BED1;
     transition-property: transform;
@@ -42,8 +90,6 @@ body {
 }
 
 .title {
-    background-color: #F9F5F6;
-    color: #E6A4B4;
     font-size: 30px;
     font-weight: bolder;
     border-radius: 10px;
@@ -76,27 +122,23 @@ body {
     padding: 10px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #F9F5F6;
     margin-bottom: -10px;
 }
 
 .center a {
     text-decoration: none;
-    color: #E6A4B4;
     padding: 5px;
     font-size: 20px;
     margin-inline: 35px;
 }
 
 .center a:hover, .right a:hover {
-    color: #E6A4B4;
     background-color: #F8E8EE;
     border-radius: 10px;
     border-bottom: 3px solid #E6A4B4;
 }
 
 .center .home {
-    color: #E6A4B4;
     background-color: #F8E8EE;
     padding: 5px;
     border-radius: 10px;
@@ -107,7 +149,6 @@ body {
     align-self: flex-start;
     display: flex;
     align-items: center;
-    background-color: #F9F5F6;
     border-radius: 10px;
     padding: 12px 16px;
 }
@@ -115,7 +156,6 @@ body {
 .right a {
     vertical-align: top;
     text-decoration: none;
-    color: #E6A4B4;
     font-size: 20px;
     font-stretch: ultra-expanded;
     margin-inline: 10px;
@@ -140,7 +180,6 @@ body {
 .welcome {
     width: 800px;
     height: 180px;
-    color: #E6A4B4;
     text-align: justify;
     font-size: 20px;
     font-weight: bolder;
@@ -161,12 +200,10 @@ body {
 .second-section {
     height: 500px;
     width: 100vw;
-    background-color: #E6A4B4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #F9F5F6;
 }
 
 .question {
@@ -193,7 +230,6 @@ body {
 
 .specialty {
     font-size: 40px;
-    color: #E6A4B4;
     border-radius: 10px;
     padding: 10px;
     font-weight: bolder;
@@ -221,7 +257,6 @@ body {
 }
 
 .specialty-info {
-    color: #E6A4B4;
     font-size: 20px;
     font-weight: bolder;
     width: 500px;
@@ -235,13 +270,11 @@ body {
 .fourth-section {
     width: 100vw;
     height: 200px;
-    background-color: #E6A4B4;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 130px;
     font-weight: bolder;
-    color: #F9F5F6;
     border-top: 20px solid #F8E8EE;
     border-bottom: 20px solid #F8E8EE;
 }
@@ -267,8 +300,6 @@ body {
 .customer {
     font-weight: bolder;
     font-size: 30px;
-    color: #F8E8EE;
-    background-color: #E6A4B4;
     padding: 10px;
     border-radius: 10px;
     width: 30%;
@@ -291,15 +322,12 @@ body {
 .review {
     font-size: 20px;
     font-weight: bolder;
-    color: #E6A4B4;
     margin-top: 5px;
 }
 
 .credits {
     width: 50%;
     height: 100px;
-    background-color: #F8E8EE;
-    color: #E6A4B4;
     text-align: center;
     font-weight: bolder;
     margin-left: auto;
