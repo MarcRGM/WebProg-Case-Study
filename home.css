@@ -48,6 +48,13 @@
     background-color: #E6A4B4;
 }
 
+.bolder {
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 body {
     margin: 0;
@@ -73,7 +80,6 @@ body {
 
 .left span{
     font-size: 30px;
-    font-weight: bold;
 }
 
 .logo{
@@ -91,7 +97,6 @@ body {
 
 .title {
     font-size: 30px;
-    font-weight: bolder;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
@@ -204,14 +209,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-top: 40px solid #F8E8EE;
+    border-bottom: 40px solid #F8E8EE;
 }
 
 .question {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .reasons {
     font-size: 20px;
+}
+
+.reasons b {
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    padding-right: 5px;
 }
 
 .reasons li {
@@ -232,8 +246,12 @@ body {
     font-size: 40px;
     border-radius: 10px;
     padding: 10px;
-    font-weight: bolder;
+    padding-inline: 280px;
     text-align: center;
+    border-top: 20px solid #E6A4B4;
+    border-bottom: 20px solid #E6A4B4;
+    border-right: 20px solid #F2BED1;
+    border-left: 20px solid #F2BED1;
 }
 
 .specialty-cupcakes-container {
@@ -258,7 +276,6 @@ body {
 
 .specialty-info {
     font-size: 20px;
-    font-weight: bolder;
     width: 500px;
     height: 200px;
 }
@@ -272,11 +289,20 @@ body {
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 130px;
-    font-weight: bolder;
     border-top: 20px solid #F8E8EE;
     border-bottom: 20px solid #F8E8EE;
+}
+
+.fourth-section span {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
+
+.fourth-section span:hover {
+    transform: translateY(-20px);
 }
 
 .fifth-section {
@@ -298,7 +324,6 @@ body {
 }
 
 .customer {
-    font-weight: bolder;
     font-size: 30px;
     padding: 10px;
     border-radius: 10px;
@@ -321,7 +346,6 @@ body {
 
 .review {
     font-size: 20px;
-    font-weight: bolder;
     margin-top: 5px;
 }
 
@@ -329,7 +353,6 @@ body {
     width: 50%;
     height: 100px;
     text-align: center;
-    font-weight: bolder;
     margin-left: auto;
     margin-right: auto;
     border-top-left-radius: 20px;
