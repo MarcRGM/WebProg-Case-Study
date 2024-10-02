@@ -564,8 +564,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    border-bottom: 30px solid #F8E8EE;
-    border-top: 30px solid #F8E8EE;
+    border-bottom: 40px solid #F8E8EE;
+    border-top: 40px solid #F8E8EE;
 }
 
 .about-us {
@@ -604,3 +604,90 @@ body {
 }
 
 /* End of about */
+
+/* Help */
+.help-question-section {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.help-question-section span {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
+
+.help-question-section span:hover {
+    transform: translateY(-20px);
+}
+
+.ordering-section, .delivery-section, .ingredients-section, .other-section {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 40px solid #F8E8EE;
+    border-top: 40px solid #F8E8EE;
+}
+
+
+.delivery-section, 
+.ingredients-section, 
+.other-section {
+    border-top: 0px solid transparent;
+}
+
+.ordering-section table, tr, td, th, 
+.delivery-section table, tr, td, th, 
+.ingredients-section table, tr, td, th, 
+.other-section table, tr, td, th   {
+    border-radius: 10px;
+}
+
+.ordering-section table, 
+.delivery-section table, 
+.ingredients-section table, 
+.other-section table {
+    margin-top: -2%;
+    width: 1200px;
+    line-height: 1.5;
+    border-spacing: 10px 15px;
+}
+
+.ordering-section th, 
+.delivery-section th, 
+.ingredients-section th, 
+.other-section th {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.ordering-section td, 
+.delivery-section td, 
+.ingredients-section td, 
+.other-section td {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ordering-section td:nth-child(1), 
+.delivery-section td:nth-child(1), 
+.ingredients-section td:nth-child(1), 
+.other-section td:nth-child(1) {
+    background-color: #F8E8EE;;
+    color: #E6A4B4;
+}
+
+
+
+
+
+
+/* End of help */
