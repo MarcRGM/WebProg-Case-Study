@@ -491,11 +491,116 @@ body {
 
 
 /* Cart */
-
-
-
-/* End of Cart */
 .cart-container {
     width: 60%;
     height: 300px;
+    margin-inline: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
+
+.empty-cart {
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline: 140px;
+    text-align: center;
+    border-top: 20px solid #E6A4B4;
+    border-bottom: 20px solid #E6A4B4;
+    border-right: 20px solid #F2BED1;
+    border-left: 20px solid #F2BED1;
+}
+
+.cart-container button {
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cart-container button:hover {
+    background-color: #F2BED1;
+    height: 70px;
+    width: 240px;
+}
+
+.cart-credit {
+    margin-top: 30%;
+}
+/* End of Cart */
+
+
+
+/* About */
+.about-section {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.about-section span {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
+
+.about-section span:hover {
+    transform: translateY(-20px);
+}
+
+
+.about-contents {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 30px solid #F8E8EE;
+    border-top: 30px solid #F8E8EE;
+}
+
+.about-us {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.about-mich {
+    width: 600px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.about-mich img {
+    border-radius: 20px;
+}
+
+.about-us span, .about-mich span {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.about-us p, .about-mich p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* End of about */
