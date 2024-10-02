@@ -811,7 +811,7 @@ body {
     flex-direction: row;
 }
 
-.delivery-info-5-container p{
+.delivery-info-5-container p {
     background-color: #E6A4B4;
     color: #F9F5F6;
     padding: 10px;
@@ -819,7 +819,6 @@ body {
     transition: transform 0.2s ease-out;
     cursor: pointer;
 }
-
 
 .delivery-info-5-container p:hover {
     transform: translateY(-20px);
