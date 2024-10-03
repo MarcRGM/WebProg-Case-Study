@@ -114,8 +114,9 @@ body {
     font-size: 30px;
     border-radius: 10px;
     padding: 10px;
-    cursor: pointer;
     border: 0px solid transparent;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
 }
 
 .title:active + .logo {
@@ -127,7 +128,7 @@ body {
 }
 
 .title:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
 }
 
 .center{
@@ -559,7 +560,7 @@ body {
 
 .about-contents {
     width: 100vw;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -570,7 +571,7 @@ body {
 
 .about-us {
     width: 500px;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -579,7 +580,7 @@ body {
 
 .about-mich {
     width: 600px;
-    height: 550px;
+    height: 600px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -592,13 +593,14 @@ body {
 }
 
 .about-us span, .about-mich span {
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px;
     border-radius: 10px;
     padding-right: 5px;
 }
 
 .about-us p, .about-mich p {
+    font-size: 20px;
     text-align: justify;
     line-height: 1.5;
 }
@@ -688,6 +690,15 @@ body {
 .other-section td:nth-child(1) {
     background-color: #F8E8EE;;
     color: #E6A4B4;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
+
+.ordering-section td:nth-child(1):hover, 
+.delivery-section td:nth-child(1):hover, 
+.ingredients-section td:nth-child(1):hover, 
+.other-section td:nth-child(1):hover {
+    transform: translateY(-10px);
 }
 /* End of help */
 
@@ -824,6 +835,191 @@ body {
     transform: translateY(-20px);
 }
 
-
-
 /*End of delivery*/ 
+
+
+/* Cupcake */
+.cupcake-logo-container {
+    width: 80%;
+    height: 400px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cupcake-logo-container img {
+    transform: scale(0.6);
+    border-radius: 50%;
+}
+
+.cupcake-category {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.category {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.category button {
+    padding: 10px;
+    background-color: #E6A4B4;
+    color: #F9F5F6;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
+
+.category button:hover {
+    transform: translateY(-10px);
+    background-color: #F2BED1;
+}
+
+.category button:active {
+    transform: translateY(2px);
+}
+
+.category span {
+    font-size: 16px;
+}
+
+.cupcake-sections {
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.available-first-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.types {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: bolder;
+    background-color: #E6A4B4;
+    color: #F9F5F6;
+    border-top: 20px solid #F8E8EE;
+    border-bottom: 20px solid #F8E8EE;
+}
+
+.types span {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
+}
+
+.types span:hover {
+    transform: translateY(-20px);
+}
+
+.cupcake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9F5F6;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 20px;
+    border-left: 20px solid #F2BED1;
+    border-right: 20px solid #F2BED1;
+    border-top: 20px solid #F9F5F6;
+    border-bottom: 20px solid #F9F5F6;
+}
+
+.cupcake-container span {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-inline: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: #F9F5F6;
+    background-color: #F2BED1;
+    border-top: 15px solid #E6A4B4;
+    border-bottom: 15px solid #E6A4B4;
+    border-left: 15px solid #F2BED1;
+    border-right: 15px solid #F2BED1;
+}
+
+.small-cupcake-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 250px;
+}
+
+.small-cupcake {
+    transform: scale(0.25);
+}
+
+.cupcake-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 180px;
+}
+
+.cupcake-order input {
+    border-radius: 10px;
+    background-color: #F9F5F6;
+    border: 2px solid #E6A4B4;
+    color: #E6A4B4;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.cupcake-order input:hover, 
+.cupcake-order input:focus, 
+.cupcake-order input:active {
+    background-color: #F9F5F6;
+    border: 2px solid #E6A4B4; 
+    color: #E6A4B4; 
+    outline: none; 
+    font-weight: bold;
+}
+
+.cupcake-order input::placeholder {
+    color: #E6A4B4; 
+    opacity: 1; 
+    font-weight: bold;
+}
+
+.cupcake-order button {
+    border-radius: 10px;
+    background-color: #E6A4B4;
+    color: #F9F5F6;
+    border: transparent;
+    padding: 5px;
+    font-weight: bold;
+}
+/* End of cupcake */
