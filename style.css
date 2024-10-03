@@ -325,7 +325,6 @@ body {
 .fourth-section span {
     display: inline-block;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .fourth-section span:hover {
@@ -550,7 +549,6 @@ body {
 .about-section span {
     display: inline-block;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .about-section span:hover {
@@ -622,7 +620,6 @@ body {
 .help-question-section span {
     display: inline-block;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .help-question-section span:hover {
@@ -691,7 +688,6 @@ body {
     background-color: #F8E8EE;;
     color: #E6A4B4;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .ordering-section td:nth-child(1):hover, 
@@ -717,7 +713,6 @@ body {
 .delivery-first-section span {
     display: inline-block;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .delivery-first-section span:hover {
@@ -828,7 +823,6 @@ body {
     padding: 10px;
     border-radius: 10px;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .delivery-info-5-container p:hover {
@@ -899,15 +893,14 @@ body {
 
 .cupcake-sections {
     width: 100vw;
-    height: 800px;
+    height: 1600px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     flex-direction: column;
 }
 
-.available-first-section {
+.available-section {
     width: 100vw;
+    height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -931,7 +924,6 @@ body {
 .types span {
     display: inline-block;
     transition: transform 0.2s ease-out;
-    cursor: pointer;
 }
 
 .types span:hover {
@@ -939,6 +931,7 @@ body {
 }
 
 .cupcake-container {
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -951,22 +944,25 @@ body {
     border-right: 20px solid #F2BED1;
     border-top: 20px solid #F9F5F6;
     border-bottom: 20px solid #F9F5F6;
+    transition: transform 0.2s ease-out;
 }
+
+.dozen {
+    width: 400px;
+}
+
+.cupcake-container:hover {
+    transform: translateY(-20px);
+}
+
+
 
 .cupcake-container span {
     font-size: 20px;
     font-weight: bolder;
-    padding-inline: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
     text-align: center;
-    color: #F9F5F6;
-    background-color: #F2BED1;
-    border-top: 15px solid #E6A4B4;
-    border-bottom: 15px solid #E6A4B4;
-    border-left: 15px solid #F2BED1;
-    border-right: 15px solid #F2BED1;
+    color: #E6A4B4;
+    line-height: 1.5;
 }
 
 .small-cupcake-container {
@@ -988,6 +984,7 @@ body {
     justify-content: space-evenly;
     width: 180px;
 }
+    
 
 .cupcake-order input {
     border-radius: 10px;
@@ -1021,5 +1018,10 @@ body {
     border: transparent;
     padding: 5px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.cupcake-order button:hover {
+    background-color: #F2BED1;
 }
 /* End of cupcake */
