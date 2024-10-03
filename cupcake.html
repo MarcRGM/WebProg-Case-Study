@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toronto Cupcakes</title>
         <!--Allows the use of the font Irish Grover-->
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'> 
@@ -80,7 +82,7 @@
                 <span>L</span>
                 <span>E</span>
             </div>
-            <div class="available-section">
+            <div class="cupcake-components">
                 <div class="cupcake-container">
                     <span>
                         Chocolate Peanut Butter cupcake<br>
@@ -119,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="available-section">
+            <div class="cupcake-components">
                 <div class="cupcake-container">
                     <span>
                         Vanilla Coconut cupcake<br>
@@ -160,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="available-section">
+            <div class="cupcake-components">
                 <div class="cupcake-container">
                     <span>
                         Chocolate Vanilla cupcake<br>
@@ -213,6 +215,71 @@
                 <span>Y</span>
                 <span>S</span>
             </div>
+            <div class="cupcake-components">
+                <div class="cupcake-container dozen">
+                    <span>
+                        Mother's Day Dozen<br>
+                        $48.00
+                    </span>
+                    <img src="https://www.torontocupcake.com/images/cupcakes_flavours/Toronto_Mothers_Day_Dozen.webp" alt="Mother's Day Dozen of cupcakes">
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container dozen">
+                    <span>
+                        Mother's Day Half Dozen<br>
+                        $24.00
+                    </span>
+                    <img src="https://www.torontocupcake.com/images/cupcakes_flavours/Toronto_Mothers_Day_Half_Dozen.webp" alt="Mother's Day Half Dozen of cupcakes">
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cupcake-components">
+                <div class="cupcake-container">
+                    <span>
+                        St Patty's Day cupcake<br>
+                        $3.75
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img class="small-cupcake" src="https://www.torontocupcake.com/images/cupcakes_flavours/stpattysday.webp" alt="St Patty's Day cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container dozen">
+                    <span>
+                        Valentine's Day Dozen<br>
+                        $48.00
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img src="https://www.torontocupcake.com/images/cupcakes_flavours/toronto_12_valentines.webp" alt="Valentine's Day cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container">
+                    <span>
+                        Easter cupcake<br>
+                        $3.75
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.8;" src="https://www.torontocupcake.com/images/cupcakes_flavours/Easter.jpg" alt="Easter cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="special-section" class="cupcake-sections">
             <div class="types">
@@ -248,6 +315,47 @@
                 <span>L</span>
                 <span>S</span>
             </div>
+            <div class="cupcake-components">
+                <div class="cupcake-container">
+                    <span>
+                        Beaches Jazz<br>
+                        $3.75
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.6;" src="https://www.torontocupcake.com/images/cupcakes_flavours/jazz.jpg" alt="Beaches Jazz cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container">
+                    <span>
+                        Toronto International Film Festival<br>
+                        $3.75
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.8;" src="https://www.torontocupcake.com/images/cupcakes_flavours/Tiff.jpg" alt="Toronto International Film Festival cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container">
+                    <span>
+                        Pride<br>
+                        $3.75
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.8;" src="https://www.torontocupcake.com/images/cupcakes_flavours/PrideDay.jpg" alt="Pride cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="custom-section" class="cupcake-sections">
             <div class="types">
@@ -258,6 +366,47 @@
                 <span>O</span>
                 <span>M</span>
             </div>
+            <div class="cupcake-components">
+                <div class="cupcake-container">
+                    <span>
+                        Just for Kids cupcake<br>
+                        $4.00
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.8;" src="https://www.torontocupcake.com/images/cupcakes_flavours/custom2.webp" alt="Just for Kids cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container">
+                    <span>
+                        Happy Birthday cupcake<br>
+                        $4.00
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.8;" src="https://www.torontocupcake.com/images/cupcakes_flavours/CustomBirthday.jpg" alt="Happy Birthday cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="cupcake-container">
+                    <span>
+                        Custom Image Cupcake<br>
+                        $4.00
+                    </span>
+                    <div class="small-cupcake-container">
+                        <img style="scale: 0.8;" src="https://www.torontocupcake.com/images/cupcakes_flavours/Face.jpg" alt="Custom Image Cupcake">
+                    </div>
+                    <div class="cupcake-order">
+                        <input class="qty-input" type="number" min="1" max="100" step="1" placeholder="1">
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer class="credits bolder dark-pink-color">
             <a href="https://www.instagram.com/torontocupcake/"><img src="https://www.torontocupcake.com/images/instagram-white.webp" alt="instagram icon"></a>
@@ -265,3 +414,4 @@
         </footer>
     </body>
 </html>
+

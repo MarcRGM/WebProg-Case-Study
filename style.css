@@ -893,12 +893,11 @@ body {
 
 .cupcake-sections {
     width: 100vw;
-    height: 1600px;
     display: flex;
     flex-direction: column;
 }
 
-.available-section {
+.cupcake-components {
     width: 100vw;
     height: 500px;
     display: flex;
@@ -954,8 +953,6 @@ body {
 .cupcake-container:hover {
     transform: translateY(-20px);
 }
-
-
 
 .cupcake-container span {
     font-size: 20px;
