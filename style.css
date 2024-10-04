@@ -197,7 +197,7 @@ body {
 }
 
 .welcome {
-    width: 800px;
+    width: 850px;
     height: 180px;
     display: flex;
     justify-content: center;
@@ -205,6 +205,11 @@ body {
     text-align: justify;
     font-size: 22px;
     padding: 20px;
+    line-height: 1.5;
+}
+
+.specify {
+    font-size: 40px;
 }
 
 .logo-2 {
@@ -212,12 +217,31 @@ body {
     height: 300px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
     border-radius: 20px;
 }
 
 .logo-2 img {
     transform: scale(1);
     border-radius: 50%;
+    margin-top: -7%;
+}
+
+.order-now {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F2BED1;
+    color: #F9F5F6;
+    border: transparent;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.order-now:hover {
+    background-color: #E6A4B4;
 }
 
 .second-section {
