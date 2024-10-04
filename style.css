@@ -899,7 +899,7 @@ body {
 
 .cupcake-components {
     width: 100vw;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1021,4 +1021,65 @@ body {
 .cupcake-order button:hover {
     background-color: #F2BED1;
 }
+
+.additional-info {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.events-and-occasions {
+    width: 40%;
+    text-align: justify;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border-left: 20px solid #F2BED1;
+    border-right: 20px solid #F2BED1;
+    border-top: 20px solid #F9F5F6;
+    border-bottom: 20px solid #F9F5F6;
+    margin-bottom: 2.5%;
+}
 /* End of cupcake */
+
+
+
+/* Privacy Policy */
+.policy {
+    margin-inline: auto;
+    height: 450px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.policy span {
+    font-size: 30px;
+    padding-inline: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    border-top: 10px solid #E6A4B4;
+    border-bottom: 10px solid #E6A4B4;
+    border-left: 10px solid #F2BED1;
+    border-right: 10px solid #F2BED1;
+}
+
+.p-bottom {
+    margin-top: 15%;
+}
+/* End of privacy policy*/
