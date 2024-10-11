@@ -188,7 +188,7 @@ body {
 /* Home page */
 
 .first-section {
-    height: 400px;
+    height: 450px;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
@@ -229,19 +229,20 @@ body {
 }
 
 .order-now {
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 10px;
     background-color: #F2BED1;
     color: #F9F5F6;
     border: transparent;
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
     cursor: pointer;
     margin-top: 5%;
+    transition-property: transform 2s ease;
 }
 
 .order-now:hover {
-    background-color: #E6A4B4;
+    transform: scale(1.2);
 }
 
 .second-section {
@@ -337,7 +338,7 @@ body {
 
 .fourth-section {
     width: 100vw;
-    height: 1%;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -445,15 +446,13 @@ body {
 /* Contact */
 
 .contact-section {
-    height: 900px;
-    width: 60%;
+    height: 700px;
+    width: 100vw;
     margin-inline: auto;
     display: flex;
     justify-content: space-evenly   ;
     align-items: center;
     align-content: center;
-    flex-direction: column;
-    border-radius: 10px;
 }
 
 .contact-content {
@@ -522,16 +521,18 @@ body {
     margin-top: -3%;
 }
 
+.c-credits {
+    margin-top: 5%;
+}
+
 /* End of Contact */
 
 
 
 /* Cart */
 .cart-container {
-    width: 60%;
-    height: 300px;
-    margin-inline: auto;
-    border-radius: 10px;
+    width: 100vw;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -566,7 +567,7 @@ body {
 }
 
 .cart-credit {
-    margin-top: 28%;
+    margin-top: 15%;
 }
 /* End of Cart */
 
@@ -575,11 +576,11 @@ body {
 /* About */
 .about-section {
     width: 100vw;
-    height: 300px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 60px;
 }
 
 .about-section span {
@@ -646,11 +647,11 @@ body {
 /* Help */
 .help-question-section {
     width: 100vw;
-    height: 300px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 60px;
 }
 
 .help-question-section span {
@@ -948,7 +949,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
     background-color: #E6A4B4;
     color: #F9F5F6;
