@@ -238,12 +238,18 @@ body {
     font-weight: bold;
     cursor: pointer;
     margin-top: 5%;
-    transition-property: transform 2s ease;
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 
-.order-now:hover {
-    transform: scale(1.2);
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
 }
+
 
 .second-section {
     height: 500px;
